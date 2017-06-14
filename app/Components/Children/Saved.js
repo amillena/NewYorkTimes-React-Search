@@ -32,8 +32,8 @@ var Saved = React.createClass({
 		return(
 
 			<div className="panel panel-success">
-				<div className="panel-heading">
-					<h3 className="panel-title text-center"><strong>Saved Articles</strong></h3>
+				<div className="panel-heading" style={{'background':'#009688'}}>
+					<h3 className="panel-title text-center" style={{'color': 'white'}}><strong>Saved Articles</strong></h3>
 				</div>
 				<div className="panel-body">
 

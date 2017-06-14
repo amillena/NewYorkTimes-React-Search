@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 var Article = require('./models/Article.js');
 
 var app = express();
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8080;
 
 // Run Morgan for Logging
 app.use(logger('dev'));
@@ -81,4 +81,5 @@ app.delete('/api/saved/:id', function(req, res){
 
 app.listen(PORT, function() {
   console.log("App listening on PORT: " + PORT);
+  console.log("anthony");
 });
