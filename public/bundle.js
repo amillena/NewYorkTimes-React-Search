@@ -21327,7 +21327,7 @@
 		clickToDelete: function clickToDelete(result) {
 			this.props.deleteArticle(result);
 		},
-
+		// componentWillReceiveProps
 		componentWillReceiveProps: function componentWillReceiveProps(nextProps) {
 			var that = this;
 			console.log(nextProps);

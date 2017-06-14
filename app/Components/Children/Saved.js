@@ -12,9 +12,9 @@ var Saved = React.createClass({
 
 	clickToDelete: function(result){
 		this.props.deleteArticle(result);
-
+		
 	},
-
+// componentWillReceiveProps
 	componentWillReceiveProps: function(nextProps){
 		var that = this;
 		console.log(nextProps);
