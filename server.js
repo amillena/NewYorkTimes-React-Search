@@ -19,7 +19,7 @@ app.use(express.static('./public'));
 
 //mongoose.connect('mongodb://localhost/nytreact');
 //mongoose.connect('mongodb://heroku_jns4phwt:61tt9c1oiotedcl5ndjhfv9pn5@ds019936.mlab.com:19936/heroku_jns4phwt');
-mongoose.connect('mongodb://heroku_bfm7mrzx:<dbpassword>@ds127492.mlab.com:27492/heroku_bfm7mrzx');
+mongoose.connect('mongodb://heroku_bfm7mrzx:@Micky123456@ds127492.mlab.com:27492/heroku_bfm7mrzx');
 
 var db = mongoose.connection;
 
